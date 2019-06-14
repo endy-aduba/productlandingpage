@@ -10,28 +10,35 @@
 
 <body>
     <header id="header">
-        <img src="image/metrolox.png" alt="company logo" id="header-img">
-        <nav id="nav-bar">
-            <ul>
-                <li class="nav-link"><a href="#header">Home</a></li>
-                <li class="nav-link"><a href="#Website-Development">Web Development</a></li>
-                <li class="nav-link"><a href="#mograph">Motion Graphics & Animations</a></li>
-                <li class="nav-link"><a href="#videography">Videography</a></li>
-                <li class="nav-link"><a href="#photography">Photography</a></li>
-            </ul>
-        </nav>
+        <div id="headers" class="encapsulate">
+            <img src="image/metrolox.png" alt="company logo" id="header-img">
+            <p id="metro">Metrolox</p>
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-link"><a class="special" href="#header">Home</a></li>
+                    <li class="nav-link"><a class="special" href="#Website-Development">Web Development</a></li>
+                    <li class="nav-link"><a class="special" href="#mograph"> Motion Graphics <br> &  Animations</a></li>
+                    <li class="nav-link"><a class="special" href="#videography">Videography</a></li>
+                    <li class="nav-link"><a class="special" href="#photography">Photography</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <div id="metrolox">METROLOX</div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/u9_nV74X0n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="section-2">
+        <div class="encapsulate">
+            <div id="metrolox">METROLOX</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u9_nV74X0n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </section>
     <div class="container">
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
-            <input type="email" name="email" id="email" placeholder="please enter your email address" required>
-            <input id="submit" type="submit" value="Submit">
-        </form>
+        <div id="container" class="encapsulate">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET" id="form">
+                <input title="enter email to subscribe to our newsletter" type="email" name="email" id="email" placeholder="please enter your email address" required>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-    <div class="container">
+    <div class="encapsulate">
         <div class="grid">
             <div class="icon">
                 <img src="image/planning.png" alt="Quality-Content">
@@ -51,26 +58,30 @@
             </div>
         </div>
     </div>
-    <div class="pricing">
-        <div id="Website-Development" class="box">
-            <h1>Website Development</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
-        </div>
-        <div id="mograph" class="box">
-            <h1>Motion Graphics & Animation</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
-        </div>
-        <div id="videography" class="box">
-            <h1>Videography</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
-        </div>
-        <div id="photography" class="box">
-            <h1>Photography</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
+    <div class="encapsulate" id="genesis">
+        <div class="pricing">
+            <div id="Website-Development" class="box">
+                <h1>Website Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
+            </div>
+            <div id="mograph" class="box">
+                <h1>Motion Graphics & Animation</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
+            </div>
+            <div id="videography" class="box">
+                <h1>Videography</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
+            </div>
+            <div id="photography" class="box">
+                <h1>Photography</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur ipsam quam recusandae incidunt vitae laudantium, odio laborum quia harum. </p>
+            </div>
         </div>
     </div>
     <footer>
-        Copyright 2019, Metrolox Company.
+        <div class="encapsulate">
+            Copyright 2019, Metrolox Company.
+        </div>
     </footer>
 </body>
 

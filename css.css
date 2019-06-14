@@ -1,5 +1,208 @@
 body {
-    font-family: 'oswald';
+    font-family: oswald, sans-serif;
     font-weight: 500;
     margin: 0;
+    background-color: rgb(255, 237, 237)
+}
+
+
+/*header starts*/
+
+.encapsulate {
+    width: 90%;
+    margin: auto;
+}
+
+.special {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+img {
+    width: 70px;
+    display: grid;
+    align-self: center;
+}
+
+#headers {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 6fr 9fr;
+}
+
+#metro {
+    font-size: 24px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    display: grid;
+    align-self: center;
+}
+
+header {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    min-height: 70px;
+    border-bottom: solid rgb(252, 37, 37) 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    align-items: center;
+}
+
+nav {
+    display: grid;
+    align-items: center;
+}
+
+li {
+    display: inline;
+}
+
+#section-2 {
+    margin-top: 100px;
+    font-size: 60px;
+    letter-spacing: 80px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: black;
+}
+
+#metrolox {
+    padding-left: 70px;
+    margin: 0px;
+    padding-bottom: 60px;
+}
+
+
+/*end of header*/
+
+
+/* email subscribe section */
+
+.container {
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(0, 0, 0)
+}
+
+#form {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 61% 39%;
+    align-items: center
+}
+
+#email {
+    font-family: lato;
+    padding: 30px;
+    border: solid rgb(182, 182, 182) 1px;
+    width: 500px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 5px;
+    justify-self: end;
+}
+
+#submit {
+    border: solid rgb(231, 68, 68) 1px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: rgb(231, 68, 68);
+    font-size: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* end of email subscribe section */
+
+
+/* grid section */
+
+.grid {
+    margin-top: 40px;
+    font-size: 24px;
+    border: solid white 2px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 1px 1px 6px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.icon {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* end of grid section */
+
+
+/* start of box section */
+
+#genesis {
+    background-color: white;
+    width: 100%;
+}
+
+.box {
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: rgb(241, 58, 58);
+}
+
+.pricing {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    padding: 120px;
+    line-height: 3.4em;
+    grid-gap: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+.pricing h1 {
+    background-color: rgb(240, 240, 240);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#photography {
+    grid-column: 2/3;
+}
+
+
+/* end of box section */
+
+footer {
+    display: flexbox;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    background-color: black;
+    color: white;
 }

@@ -211,9 +211,6 @@ footer {
 /* beginning of media query */
 
 @media (max-width: 1300px) {
-    body {
-        background-color: red;
-    }
     #metro {
         font-size: 17px;
         letter-spacing: 5px;
@@ -278,9 +275,6 @@ footer {
 }
 
 @media (max-width: 700px) {
-    body {
-        background-color: blue;
-    }
     ul {
         margin: 0px;
         padding: 0px;
